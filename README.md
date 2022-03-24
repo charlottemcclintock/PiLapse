@@ -42,3 +42,7 @@ After trying so many different combinations, here's what finally worked:
 ## Still Left To Do
  * figure out how to execute timelapse: picamera2? straight up libcamera + bash scripting? sleep overnight? 
  * figure out VNC viewer from iPhone for mobile explorations?
+
+## Tutorials I Learned From 
+ * [How to use Raspberry Pi Cameras with the New 'Bullseye' OS Update - LibCamera](https://www.youtube.com/watch?v=uw4jjvufU8Q)
+ * [How to Use IOS Devices As a Monitor of Raspberry Pi](https://www.instructables.com/How-to-Use-Ios-Devices-As-a-Monitor-of-Raspberry-P/) 
