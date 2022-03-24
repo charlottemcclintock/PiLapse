@@ -14,9 +14,10 @@ chronicling my quest to set up a timelapse camera to watch my orchids bloom as a
 After trying so many different combinations, here's what finally worked: 
   * load full size OS with SSH enabled to automatically connect to network on boot
   * follow [these instructions](https://www.instructables.com/How-to-Use-Ios-Devices-As-a-Monitor-of-Raspberry-P/) (loosely) - SSH into pi with `ssh pi@piname.local` and run `sudo apt-get install tightvncserver` and `tightvncserver` (set up password as requested)
-  * enable Glamor in `sudo raspi-config` settings
-  * download [VNC Viewer](https://www.realvnc.com/en/connect/download/vnc/macos/) and connect using the instructions above
-  * run `libcamera-hello -t 0 --qt-preview` to get preview to focus
+  * download [VNC Viewer](https://www.realvnc.com/en/connect/download/vnc/macos/)
+  * connect to pi with VNC Viewer with the pi's IP on the network (findable via your router admin page, i literally google 'router admin page' to find it) and the desktop number you get from `tightvncserver` (mine was 1) 
+  * enable Glamor in Advanced section of `sudo raspi-config` settings
+  * run `libcamera-hello -t 0 --qt-preview` to get preview to see the images while manually focusing the lens
   * run `libcamera-still -o flowers.jpg` to capture image
   * use `scp pi@piname.local:/home/pi/*.jpg ./` from a new terminal window to transfer over image files
 
