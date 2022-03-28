@@ -47,3 +47,4 @@ After trying so many different combinations, here's what finally worked:
  * [How to use Raspberry Pi Cameras with the New 'Bullseye' OS Update - LibCamera](https://www.youtube.com/watch?v=uw4jjvufU8Q)
  * [How to Use IOS Devices As a Monitor of Raspberry Pi](https://www.instructables.com/How-to-Use-Ios-Devices-As-a-Monitor-of-Raspberry-P/) 
  * [libcamera apps on Bullseye running on Pi 0 - 3](https://forums.raspberrypi.com/viewtopic.php?t=323547)
+ * [Time Lapse Camera](https://dronebotworkshop.com/pi-10-timelapse/)
